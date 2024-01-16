@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer sale</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <!-- icon link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- sweet alert link -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <style>
+        body {
+            font-family: 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-black">
+    <main>
+        <section>
+            <div class="grid lg:grid-cols-2 gap-6 text-center items-center bg-[#F9F6E2] py-16 px-2">
+                <div class="flex-1">
+                    <h2 class="text-2xl">---SALE FEVER---</h2>
+                    <h1 class="md:text-5xl text-2xl font-semibold md:my-5 my-2">Purchase TK 1500 or <br>above & get <span
+                            class="text-[#E527B2]">20% off</span></h1>
+                    <h2 class="text-xl">Use Promo Code <span
+                            class="bg-[#ee37c0] px-4 py-2 rounded-lg text-white text-lg">SELL200</span></h2>
+
+                </div>
+                <div class="flex-1 ">
+                    <img class="lg:w-10/12 md:w-8/12 w-8/12 mx-auto" src="images/Summer 1.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="lg:flex lg:w-11/12 mx-auto gap-10">
+                <div class="lg:w-9/12 m-10">
+                    <div>
+                        <h1 class="text-3xl mb-7 m-5 font-bold">Kitchenware</h1>
+                        <div class=" grid md:grid-cols-2 lg:grid-cols-3 mx-auto gap-3">
+                            <div id="card" class="card shadow-2xl items-center bg-slate-200 cursor-pointer">
+                                <figure><img src="images/prod1.png" alt="Shoes" /></figure>
+                                <div class="card-body text-center">
+                                    <div class=" text-yellow-400 text-xl">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                    <h2 class="card-title">K. Accessories</h2>
+                                    <p><span>540.00</span> TK</p>
+                                </div>
+                            </div>
+                            <div id="card" class="card shadow-2xl items-center bg-slate-200 cursor-pointer">
+                                <figure><img src="images/prod2.png" alt="Shoes" /></figure>
+                                <div class="card-body text-center">
+                                    <div class=" text-yellow-400 text-xl">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                    <h2 class="card-title">K. Accessories</h2>
+                                    <p><span>460.00</span> TK</p>
+                                </div>
+                            </div>
+                            <div id="card" class="card shadow-2xl items-center bg-slate-200 cursor-pointer">
+                                <figure><img src="images/prod3.png" alt="Shoes" /></figure>
+                                <div class="card-body text-center">
+                                    <div class=" text-yellow-400 text-xl">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                    <h2 class="card-title">Sports cates</h2>
+                                    <p><span>650.00</span> TK</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-12">
+                        <h1 class="text-3xl mb-7 m-5 font-bold">Sportswear</h1>
+                        <div class=" grid md:grid-cols-2 lg:grid-cols-3 mx-auto gap-3">
+                            <div id="card" class="card shadow-2xl items-center bg-slate-200 cursor-pointer">
+                                <figure><img src="images/prod4.png" alt="Shoes" /></figure>
+                                <div class="card-body text-center">
+                                    <div class=" text-yellow-400 text-xl">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                    <h2 class="card-title">Sports Back Cap</h2>
+                                    <p><span>150.00</span> TK</p>
+                                </div>
+                            </div>
+                            <div id="card" class="card shadow-2xl items-center bg-slate-200 cursor-pointer">
+                                <figure><img src="images/prod5.png" alt="Shoes" /></figure>
+                                <div class="card-body text-center">
+                                    <div class=" text-yellow-400 text-xl">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                    <h2 class="card-title">Full Jersey Set</h2>
+                                    <p><span>350.00</span> TK</p>
+                                </div>
+                            </div>
+                            <div id="card" class="card shadow-2xl items-center bg-slate-200 cursor-pointer">
+                                <figure><img src="images/prod6.png" alt="Shoes" /></figure>
+                                <div class="card-body text-center">
+                                    <div class=" text-yellow-400 text-xl">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                    <h2 class="card-title">Sports cates</h2>
+                                    <p><span>800.00</span> TK</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-12">
+                        <h1 class="text-3xl mb-7 m-5 font-bold">Furniture</h1>
+                        <div class=" grid md:grid-cols-2 lg:grid-cols-3 mx-auto gap-3">
+                            <div id="card" class="card shadow-2xl items-center bg-slate-200 cursor-pointer">
+                                <figure><img src="images/prod7.png" alt="Shoes" /></figure>
+                                <div class="card-body text-center">
+                                    <div class=" text-yellow-400 text-xl">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                    <h2 class="card-title">Single Relax Chair</h2>
+                                    <p><span>1020.00</span> TK</p>
+                                </div>
+                            </div>
+                            <div id="card" class="card shadow-2xl items-center bg-slate-200 cursor-pointer">
+                                <figure><img src="images/prod8.png" alt="Shoes" /></figure>
+                                <div class="card-body text-center">
+                                    <div class=" text-yellow-400 text-xl">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                    <h2 class="card-title">Children play</h2>
+                                    <p><span>850.00</span> TK</p>
+                                </div>
+                            </div>
+                            <div id="card" class="card shadow-2xl items-center bg-slate-200 cursor-pointer">
+                                <figure><img src="images/prod9.png" alt="Shoes" /></figure>
+                                <div class="card-body text-center">
+                                    <div class=" text-yellow-400 text-xl">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                    <h2 class="card-title">Flexible Sofa</h2>
+                                    <p><span>1450.00</span> TK</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-3/12 mx-auto mt-24">
+                    <div class="card lg:w-full md:w-96 m-5 bg-slate-50 p-5 mx-auto">
+                        <h1 class="text-xl text-center">Have coupon?</h1>
+                        <div class="flex my-4 mx-auto ">
+                            <input id="input-field" type="text" placeholder="Coupon code"
+                                class="bg-slate-200 w-32 p-2 rounded-l-lg">
+                            <button id="apply-btn" class="btn p-2 text-white bg-[#E527B2] rounded-r-lg ">Apply</button>
+                        </div>
+                    </div>
+                    <div class="card lg:w-full md:w-96 mx-auto m-5 bg-slate-50 p-5">
+                        <div id="select-item" class="text-xl"> </div>
+                        <hr class="my-3">
+                        <h3 class="text-xl">Total Price : <span class="text-[#E527B2]" id="total-price">00</span>
+                            <span class="text-[#E527B2]">Tk</span>
+                        </h3>
+                        <h3 class="my-1 text-xl">Discount : <span class="text-[#E527B2]" id="discount-price">00</span>
+                            <span class="text-[#E527B2]">Tk</span>
+                        </h3>
+                        <h3 class="text-xl">Total : <span class="text-[#E527B2]" id="total">00</span>
+                            <span class="text-[#E527B2]">Tk</span>
+                        </h3>
+                        <hr class="my-3">
+                        <button onclick="makebtn.showModal()" id="make-btn"
+                            class="py-3 btn normal-case text-lg text-white bg-[#E527B2] rounded-xl">Make
+                            Purchase</button>
+
+                        <dialog id="makebtn" method="dialog" class="rounded-xl">
+                            <form>
+                                <div class="card md:w-96 w-60 rounded-lg bg-white">
+                                    <figure class="md:px-10 md:pt-10">
+                                        <img src="images/congo.png" alt="Shoes">
+                                    </figure>
+                                    <div class="card-body items-center text-center">
+                                        <h2 class="card-title text-black">Congratulations</h2>
+                                        <p class="text-slate-400">Your Purchase the product</p>
+                                        <div class="card-actions">
+                                            <button class="btn bg-[#E527B2] text-white">Go Home</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </dialog>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/calculate.js"></script>
+</body>
