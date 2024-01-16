@@ -24,7 +24,7 @@ for (let i of card) {
         total = total + price;
         totalPrice.innerText = total;
         makeBtn.disabled = false;
-        if (total > 3000) {
+        if (total > 1500) {
             applyBtn.disabled = false;
         }
         else {
